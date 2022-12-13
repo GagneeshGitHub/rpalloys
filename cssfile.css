@@ -1,0 +1,279 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 1600px;
+}
+
+.topBckImgDiv{
+    width: 100%;
+    height: 735px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.gridChild{
+    width: 1500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.backGrad{
+    background-image: linear-gradient(#05283E,#09436700);
+}
+
+.heFirst{
+    color: white;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.redRectGrid{
+    width: 900px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 100%;
+    color: white;
+    font-family: ITC Avant Garde Gothic Std;
+}
+
+.rectChild{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.redRect{
+    width: 250px;
+    height: 250px;
+    background-color: #EC2232;
+    opacity: 0.5;
+    margin-left: 60px;
+}
+
+.rectTextFirst{
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 150px;
+}
+
+.rectTextSecond{
+    font-size: 30px;   
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    margin-left: 130px;
+    margin-top: 150px;
+    z-index: 1;
+}
+
+.rectTextThird{
+    font-size: 30px;   
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    margin-left: 580px;
+    margin-top: 150px;
+    z-index: 1;
+}
+
+.rectNumb{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    margin-left: 130px;
+    color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    margin-top: 90px;
+    z-index: 1;
+}
+
+.rectLine{
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin-left: 190px;
+    margin-top: 100px;
+}
+
+/* Smart working team section */
+
+.smartWorkingTeam{
+    width: 1000px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    font-family: ITC Avant Garde Gothic Std;
+}
+
+.smartWorkingText{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #EC2232;
+}
+
+.indExpr{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.leftHeading{
+    width: 60%;
+    margin-top: 20px;
+    color: #222222;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+}
+
+.rightParagraph{
+    width: 40%;
+    color: black;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.numbList{
+    width: 100%;
+    height: 240px;
+    margin-top: auto;
+    margin-bottom: 0%;
+    display: flex;
+}
+
+.numDet{
+    width: 245px;
+    height: 126px;
+    margin-top: auto;
+}
+
+.numPlus{
+    display: flex;
+}
+
+.Numb20{
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #222222;  
+    padding: 0%;
+    margin: 0%;
+}
+
+.Numbp{
+    color: #EC2232;
+    font-size: 110px;
+    font-weight: 300;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+}
+
+.btmNumbDet{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+}
+
+#firstNumb{
+    margin-right: auto;
+}
+
+#secondNumb{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#thirdNumb{
+    margin-left: auto;
+}
+
+/* Classes for customer first approach */
+.customerApp{
+    width: 100%;
+    height: 540px;
+    font-family: ITC Avant Garde Gothic Std;
+    margin-top: 350px;
+    background-color: #F7F7F7;
+    padding-top: 80px;
+}
+
+.smHead{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #EC2232;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lHead{
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #222222;
+}
+
+.listingDet{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.flexLenDiv{
+    min-width: auto;
+    display: flex;
+    height: 100%;
+    margin-left: 400px;
+}
+
+.listCard{
+    width: 300px;
+    height: 450px;
+    margin-left: 50px;
+    box-shadow: -20px 20px 50px 10px rgba(143, 143, 143,0.5);
+}
+
+.listCard img{
+    width: 100%;
+    height: 330px;
+    flex-shrink: 0;
+}
+
+.btmWhiteDet{
+    width: 100%;
+    height: 120px;
+}
+
+.listingRectPara{
+    color: #222222;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
