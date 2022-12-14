@@ -7,6 +7,66 @@ body{
     width: 1600px;
 }
 
+/* Classes for top bar*/
+
+.topBar{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    font-family: ITC Avant Garde Gothic Std;
+}
+
+.leftDiv{
+    width: 100%;
+    height: 100%;
+}
+
+.leftDiv img{
+    width: 28px;
+    height: 12px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.midDiv{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.midDiv img{
+    width: 120px;
+    height: 20px;
+    margin-top: 12px;
+}
+
+.rightDiv{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    text-align: right;
+    color: #222222;
+}
+
+.rightDiv img{
+    width: 25px;
+    margin-left: 15px;
+    margin-right: 22px;
+}
+
+.rightDiv hr{
+    width: 185px;
+    margin-left: auto;
+    margin-right: 22px;
+    margin-top: 5px;
+    color: #222222;
+}
+
+/* Classes for first background section */
 .topBckImgDiv{
     width: 100%;
     height: 735px;
@@ -276,4 +336,531 @@ body{
     margin-left: 20px;
     margin-top: 20px;
     font-size: 20px;
+}
+
+.cuDesign{
+    position: absolute;
+}
+
+.leftDesign{
+    left: 0%;
+    width: 300px;
+    height: 400px;
+    transform: translateY(140px);
+}
+
+.rightDesign{
+    width: 400px;
+    height: 400px;
+    transform: translate(1200px,-80px);
+}
+
+/* Classes for induties we serve */
+
+.indServe{
+    width: 1120px;
+    height: 870px;
+    margin-top: 450px;
+    margin-bottom: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: ITC Avant Garde Gothic Std;
+}
+
+
+.threeHeadDiv{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.thChild{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    height: 150px;
+}
+
+
+.thBlack{
+    color: #222222;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: left;
+    transform: translateY(80px);
+    background-color:white;
+}
+
+.thWhite{
+    color: transparent;
+    -webkit-text-stroke-color: #353535;
+    -webkit-text-stroke-width: 1px;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.secondThChild{
+    transform: translateY(40px);
+    background-color: white;
+}
+
+.benchmark{
+    width: 100%;
+    height: 80px;
+}
+
+.benchmark p{
+    color: #9198A0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 3px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.benchPlusSign{
+    transform: translate(-20%,-150%);
+    position: absolute;
+}
+
+.indExp{
+    width: 100%;
+    height: 490px;
+    display: grid;
+    grid-template-columns: 560px 560px;
+    grid-template-rows: 163px 163px 163px;
+}
+
+.indExpChild{
+    grid-column-start: auto;
+    grid-row-start: auto;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.indExpChild img{
+    width: 66px;
+    height: 60px;
+}
+
+.indExpInDiv{
+    margin-left: 15px;
+}
+
+.indExpInDiv h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #222222;
+}
+
+.indExpInDiv p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 250px
+}
+
+/* RedColor Line */
+.leftRedLine{
+    width: 3px;
+    height: 490px;
+    position: absolute;
+    background-color: #EC2232;
+    transform: translateY(-100%);
+}
+
+/* Classes for world class machine and infra .... */
+
+.worldClassMac{
+    width: 100%;
+    height: 875px;
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: ITC Avant Garde Gothic Std;
+}
+
+.worldClassMac img{
+    width: 100%;
+    height: 875px;
+}
+
+.worldInfraChild{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+.swChild{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wICInDiv{
+    width: 618px;
+    height: 475px;
+    transform: translate(-200px,100px);
+    color: white;
+}
+
+.firstHeadingWIC{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.wICInDiv h3{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.paraWIC{
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 85%;
+}
+
+.infoDivWIC{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 60px;
+}
+
+.idEl{
+    width: 100%;
+    height: 100%;
+}
+
+.idEl img{
+    width: 58px;
+    height: 57px;
+}
+
+.idEl h2{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.idEl p{
+font-size: 22px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: -0.02em;
+text-align: center;
+}
+
+
+/* Classes for industries parteners logos */
+.indPartLogo{
+    width: 1100px;
+    height: 228px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: ITC Avant Garde Gothic Std;
+}
+
+.iPLTxt{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: -0.02em;  
+    padding-top: 5px;
+    color: #E82232;
+}
+
+.iPLGrid{
+    width: 100%;
+    height: 80%;
+    grid-template-columns: 220px 220px 220px 220px 220px;
+    grid-template-rows: 114px 114px;
+}
+
+.iPLGridChild{
+    grid-column-start: auto;
+    grid-row-start: auto;
+    margin-left: 50px;
+}
+
+#pattern0:hover{
+    fill: red;
+}
+
+/* classes for contact form */
+.contactForm{
+    width: 100%;
+    height: 825px;
+    font-family: ITC Avant Garde Gothic Std;
+    color: white;
+    display: flex;
+}
+
+.contInfo{
+    width: 50%;
+    height: 100%;
+    background-color: #05283E;
+    padding-left: 166px;
+    padding-top: 148px;
+    box-sizing: border-box;
+}
+
+.contInfo h1{
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+}
+
+.lineBreakCF{
+    width: 180px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 31px;
+}
+
+.textBox{
+    width: 458px;
+    height: 56px;
+    border-radius: 7.7px;
+    margin-bottom: 21px;
+    font-size: 25px;
+    padding-left: 60px;
+    font-weight: 300;
+}
+
+.contInfo textarea{
+    resize: none;
+    padding-top: 10px;
+}
+
+.iLogo{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    transform: translate(20px,20px);
+    z-index: 1;
+}
+
+.fnLogo{
+    background-image: url('./Media/logos/firstTextBoxLogo.png');
+}
+
+.seLogo{
+    background-image: url('./Media/logos/secondTextBoxLogo.png');
+}
+
+.thLogo{
+    background-image: url('./Media/logos/thirdTextBoxLogo.png');
+}
+
+.foLogo{
+    background-image: url('./Media/logos/fourthTextBoxLogo.png');
+}
+
+.mesgBox{
+    height: 112px;
+}
+
+.mapInfo{
+    width: 50%;
+    height: 100%;
+    background-color: #F8F8F8;
+}
+
+.submitBtn{
+    background-color: #EC2232;
+    height: 50px;
+    width: 162px;
+    border-color: transparent;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    font-family: ITC Avant Garde Gothic Std;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.mapISubDiv{
+    width: 720px;
+    height: 582px;
+    position: absolute;
+    display: flex;
+    transform: translate(-70px,150px);
+}
+
+.mapISubDiv img{
+    height: 582px;
+    width: 430px;
+}
+
+.mapDet{
+    width: 290px;
+    height: 582px;
+    background-color: white;
+    color: black;
+    font-family: AvertaStd-Regular;
+
+}
+
+.mapDet div{
+    width: 207px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mapDet h2{
+    color: #192437;
+    font-size: 18px;
+    line-height: 12px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.mapDet p{
+    margin-top: 18px;
+    font-size: 15px;
+}
+
+.regDet{
+    height: 160px;
+}
+
+.callUsDet{
+    height: 80px;
+}
+
+.detHr{
+    color: #C4C4C4;
+    width: 207px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Classes for footer */
+.footerCls{
+    background-color: #181818;
+    width: 100%;
+    height: 334px;
+    color: white;
+    font-family: ITC Avant Garde Gothic Std;
+    display: flex;
+}
+
+.fLeftDiv{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    padding-left: 166px;
+    padding-top: 80px;
+}
+
+.fLeftDiv h2{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.fMidDiv{
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.fMidDiv h2{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.fmList{
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+}
+
+.fmList ul{
+    width: 50%;
+}
+
+.fRightDiv{
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+    box-sizing: border-box;
+    text-align: right;
+    padding-right: 166px;
+}
+
+.fRightDiv img{
+    margin-left: 20px;
+}
+
+.fRightDiv h3{
+    margin-top: 21px;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    text-align: right;
+}
+
+.verLine{
+    width: 1px;
+    height: 150px;
+    position: absolute;
+    background-color: #C4C4C4;
+}
+
+#firstVL{
+    left: 450px;
+    transform: translateY(90px);
+}
+
+#secondVL{
+    left: 1000px;
+    transform: translateY(90px);
 }
